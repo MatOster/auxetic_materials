@@ -61,7 +61,7 @@ def grad_des(x):
     xnow = 0 * x
     gradnow = 0 * x
     norm =1
-    while (i < max_It and norm > precision:  
+    while (i < max_It and norm > precision):  
         grad = Function_Tensegrity_BMN.gradient(x,delta)
         norm =laenge(list(grad))
         xprev = xnow
