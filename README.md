@@ -3,4 +3,4 @@ Simulation of auxetic structures under stress by using a tensegrity bar-spring m
 
 The matlab code provides the energies, constraints and scripts (RunBMNNBig, RunBMNSmall and ScriptBMN for the medium sized) for three different starting configurations and one compression (default is expansion) 
 
-the python code
+the python code only provides files for the medium sized configuration (compare scriptBMN.m)
